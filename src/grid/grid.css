@@ -1,0 +1,39 @@
+.grid
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 150px;
+}
+
+.main
+{
+    background-color: black;
+    border-color: blue;
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    
+    width: fit-content;
+    
+    border-radius: 10%;
+    overflow: hidden;
+    
+}
+
+
+.display{
+    width:150px;
+    height: 30px;
+    overflow: hidden;
+    background-color: black;
+    border-color: black;
+}
+
+.display input{
+    background-color: black;
+    border-radius: 10%;
+    height: 30px;
+    border-color: black;
+}

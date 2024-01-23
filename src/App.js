@@ -3,6 +3,8 @@ import './App.css';
 import React from 'react'
 import NAV from './NAV BAR/NAV';
 import Button from './buttons/button';
+import grid from './grid/grid';
+import MyComponent from './grid/grid';
 
 // import calc from 'calculator\public\calci.jpeg'
 
@@ -12,8 +14,7 @@ function App() {
     <div>
       <><NAV></NAV></>
     
-        <Button val="1"></Button>
-
+      <MyComponent className="my-classname" input="Hello, World!" />
     </div>
     </>
 

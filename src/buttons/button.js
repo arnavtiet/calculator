@@ -5,12 +5,12 @@
 
 
 import React from "react"
-import './b.css'
+import styles from './b.css'
 
 const Button = ({val}) => {
   return (
     <div>
-      <button>{val}</button>
+      <button className="normal">{val}</button>
     </div>
   )
 };

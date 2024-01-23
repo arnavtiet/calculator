@@ -1,4 +1,4 @@
-button{
+button.normal{
     background-color: #333;
     border:none;
     border-radius: 50%;
@@ -11,6 +11,48 @@ button{
     transition: 0.5s ease;
 }
 
+
+button.yellow
+{
+    background-color: #FF9500;
+    border:none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: larger;
+    color:whitesmoke;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+button.grey
+{
+    background-color: #D4D4D2;
+    border:none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: larger;
+    color:whitesmoke;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+button.long
+{
+
+    background-color: #333;
+    height:25px;
+   width:75px;
+   border-radius: 30px;
+  
+   border:none;
+   color:white;
+}
 button:hover{
     opacity: 80%;
     
