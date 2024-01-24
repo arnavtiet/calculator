@@ -7,10 +7,10 @@
 import React from "react"
 import styles from './b.css'
 
-const Button = ({val}) => {
+const Button = ({val,type}) => {
   return (
     <div>
-      <button className="normal">{val}</button>
+      <button className={type}>{val}</button>
     </div>
   )
 };
