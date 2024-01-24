@@ -11,10 +11,10 @@ import MyComponent from './grid/grid';
 function App() {
   return (
     <>
-    <div>
+    <div className='home'>
       <><NAV></NAV></>
     
-      <MyComponent className="my-classname" input="Hello, World!" />
+      <MyComponent />
     </div>
     </>
 
