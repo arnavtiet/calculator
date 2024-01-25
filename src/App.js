@@ -9,6 +9,7 @@ import MyComponent from './grid/grid';
 // import calc from 'calculator\public\calci.jpeg'
 
 function App() {
+  
   return (
     <>
     <div className='home'>
